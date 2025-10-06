@@ -2,7 +2,7 @@ package com.ccruce.medicationtracker.exception;
 
 import java.time.LocalDateTime;
 
-public class ExceptionApi {
+public class ErrorApi {
 
     // fields
 
@@ -13,7 +13,7 @@ public class ExceptionApi {
 
     // constructor
 
-    public ExceptionApi(int statusCode, LocalDateTime timestamp, String message, String description) {
+    public ErrorApi(int statusCode, LocalDateTime timestamp, String message, String description) {
         this.statusCode = statusCode;
         this.timestamp = timestamp;
         this.message = message;

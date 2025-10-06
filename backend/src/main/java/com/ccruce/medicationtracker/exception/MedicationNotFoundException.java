@@ -1,7 +1,8 @@
 package com.ccruce.medicationtracker.exception;
 
 public class MedicationNotFoundException extends RuntimeException {
-  public MedicationNotFoundException(String message) {
-    super(message);
-  }
+    public MedicationNotFoundException(String message) {
+
+        super(message);
+    }
 }
