@@ -4,5 +4,5 @@ export interface Medication {
     dosage: string;
     frequency: string;
     notes?: string;
-    quantity?: string;
+    quantity?: number;
 }
